@@ -42,6 +42,18 @@ services:
   packages:
   - name: WmPublic
     version: 11.1.0.0.2064
+- serviceName: project.siqa_git_2807mcsppp.integrations:Copy_refdaf
+  packages:
+  - name: SIQA_GIT_2807MCSPPPProject
+    version: "1.0"
+  - name: TPP_services_in_FCS
+    version: "1.0"
+- serviceName: project.siqa_git_2807mcsppp.referencedata:refData
+  packages:
+  - name: SIQA_GIT_2807MCSPPPProject
+    version: "1.0"
+  - name: TPP_services_in_FCS
+    version: "1.0"
 - serviceName: project.siqa_git_2807mcsppp.integrations:GitSyncFlow
   packages:
   - name: SIQA_GIT_2807MCSPPPProject
@@ -59,12 +71,6 @@ services:
   - name: TPP_services_in_FCS
     version: "1.0"
 - serviceName: project.siqa_git_2807mcsppp.integrations:refdaf
-  packages:
-  - name: SIQA_GIT_2807MCSPPPProject
-    version: "1.0"
-  - name: TPP_services_in_FCS
-    version: "1.0"
-- serviceName: project.siqa_git_2807mcsppp.referencedata:refData
   packages:
   - name: SIQA_GIT_2807MCSPPPProject
     version: "1.0"
