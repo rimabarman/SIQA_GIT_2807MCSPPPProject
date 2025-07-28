@@ -16,7 +16,7 @@ services:
   packages:
   - name: WmPublic
     version: 11.1.0.0.2064
-- serviceName: project.siqa_git_2807mcsppp.integrations:deepclonetest
+- serviceName: project.siqa_git_2807mcsppp.integrations:Copy_deepclonetest
   packages:
   - name: SIQA_GIT_2807MCSPPPProject
     version: "1.0"
@@ -32,3 +32,7 @@ services:
   packages:
   - name: WmPublic
     version: 11.1.0.0.2064
+- serviceName: project.siqa_git_2807mcsppp.integrations:deepclonetest
+  packages:
+  - name: SIQA_GIT_2807MCSPPPProject
+    version: "1.0"
