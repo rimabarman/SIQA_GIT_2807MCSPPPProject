@@ -8,6 +8,7 @@ packages:
   gitUsername: rimabarman
   gitBranch: main
 - name: TPP_services_in_FCS
+  version: "1.0"
   gitServerName: rimaSCName
   gitUrl: https://github.com/Karthik-V-IBM-10
   gitUsername: rimabarman
@@ -17,6 +18,8 @@ services:
   packages:
   - name: SIQA_GIT_2807MCSPPPProject
     version: "1.0"
+  - name: TPP_services_in_FCS
+    version: "1.0"
 - serviceName: pub.alert:emit
   packages:
   - name: WmPublic
@@ -24,6 +27,8 @@ services:
 - serviceName: project.siqa_git_2807mcsppp.integrations:Copy_deepclonetest
   packages:
   - name: SIQA_GIT_2807MCSPPPProject
+    version: "1.0"
+  - name: TPP_services_in_FCS
     version: "1.0"
 - serviceName: pub.string:stringToBytes
   packages:
@@ -41,6 +46,8 @@ services:
   packages:
   - name: SIQA_GIT_2807MCSPPPProject
     version: "1.0"
+  - name: TPP_services_in_FCS
+    version: "1.0"
 - serviceName: pub.math:addInts
   packages:
   - name: WmPublic
@@ -48,4 +55,18 @@ services:
 - serviceName: project.siqa_git_2807mcsppp.integrations:deepclonetest
   packages:
   - name: SIQA_GIT_2807MCSPPPProject
+    version: "1.0"
+  - name: TPP_services_in_FCS
+    version: "1.0"
+- serviceName: project.siqa_git_2807mcsppp.integrations:refdaf
+  packages:
+  - name: SIQA_GIT_2807MCSPPPProject
+    version: "1.0"
+  - name: TPP_services_in_FCS
+    version: "1.0"
+- serviceName: project.siqa_git_2807mcsppp.referencedata:refData
+  packages:
+  - name: SIQA_GIT_2807MCSPPPProject
+    version: "1.0"
+  - name: TPP_services_in_FCS
     version: "1.0"
