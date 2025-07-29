@@ -24,6 +24,20 @@ services:
   packages:
   - name: WmPublic
     version: 11.1.0.0.2064
+- serviceName: project.siqa_git_2807mcsppp.integrations:Copy_Sum
+  packages:
+  - name: SIQA_GIT_2807MCSPPPProject
+    version: "1.0"
+  - name: TPP_services_in_FCS
+    version: "1.0"
+- serviceName: pub.math:addInts
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2064
+- serviceName: pub.flow:debugLog
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2064
 - serviceName: project.siqa_git_2807mcsppp.integrations:Copy_deepclonetest
   packages:
   - name: SIQA_GIT_2807MCSPPPProject
@@ -60,10 +74,16 @@ services:
     version: "1.0"
   - name: TPP_services_in_FCS
     version: "1.0"
-- serviceName: pub.math:addInts
+- serviceName: project.siqa_git_2807mcsppp.integrations:Test_RestAPI
   packages:
-  - name: WmPublic
-    version: 11.1.0.0.2064
+  - name: SIQA_GIT_2807MCSPPPProject
+    version: "1.0"
+  - name: TPP_services_in_FCS
+    version: "1.0"
+- serviceName: services:add3Ints
+  packages:
+  - name: TPP_services_in_FCS
+    version: "1.0"
 - serviceName: project.siqa_git_2807mcsppp.integrations:deepclonetest
   packages:
   - name: SIQA_GIT_2807MCSPPPProject
